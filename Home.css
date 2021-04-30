@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #046fdb;
+  border-bottom: 4px solid #181818;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 10px;
+}
+
+.header-right a:hover,
+.header-button:hover {
+  background-color: aliceblue;
+  color: black;
+  font-style: italic;
+  box-shadow: -4px -4px 8px #046fdb63, 4px 4px 8px #ffffff63;
+}
+
+.header-button:active,
+.header-right a:active {
+  color: red;
+}
+
+.header-h1 {
+  margin-left: -20px;
+  font-size: 30px;
+}
+
+.header-right {
+  text-align: center;
+  margin-top: 22px;
+  margin-right: 10px;
+  padding: 12px;
+  font-size: 18px;
+  float: right;
+}
+
+.header-right a {
+  padding: 12px;
+  margin-right: 10px;
+  transition: 0.25s;
+}
+
+.header-button {
+  font-family: Century Gothic, sans-serif;
+  color: white;
+  float: right;
+  text-align: center;
+  outline: none;
+  border-radius: 10px;
+  background: none;
+  border: 0px;
+  cursor: pointer;
+  padding: 12px;
+  line-height: 25px;
+  font-size: 18px;
+  transition: 0.25s;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.benvenuto {
+  margin: 10px 40px;
+}
+
+.body-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.filters {
+  flex: 1;
+  width: 300px;
+}
+
+.form-filters {
+  margin: 40px 10px;
+}
+
+.form-filters p {
+  font-size: 17px;
+}
+
+.select {
+  margin: 30px;
+  min-width: 250px;
+  position: relative;
+}
+
+.stelle {
+  margin: 30px;
+}
+
+.search-content {
+  flex: 6;
+  flex-direction: column;
+}
+
+.search {
+  flex: 1;
+}
+
+.search-bar {
+  background-color: #2196f3;
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  margin-left: 60px;
+  width: 30%;
+  min-width: 300px;
+}
+
+.search-bar input {
+  all: unset;
+  font-size: 19px;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+.search-bar ::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.search-bar button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+.search-bar svg {
+  color: #fff;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+  transition: 0.25s;
+}
+
+.search-bar svg:hover {
+  background-color: #0455a7d2;
+}
+
+.search-bar svg:active {
+  background-color: #83c1ffd2;
+}
